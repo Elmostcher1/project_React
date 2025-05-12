@@ -67,7 +67,7 @@ function OPenDropDown(state){
                             </div>
                             <div className="col-7">
                               <div className='d-flex flex-column gap-1'>
-                                <b>{el.title.split(" ").slice(0,2).join(" ")}</b>
+                                <b>{el.title}</b>
                                 <p className='m-0'>${el.price * el.amount}</p>
                                 <div className='d-flex gap-2 '>
      <button onClick={e =>otherChangeAmount("plus" , el)} className='btn btn-dark ronded-1 ' >+</button>

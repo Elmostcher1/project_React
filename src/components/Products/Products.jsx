@@ -16,7 +16,7 @@ function Products({val ,addWishlist , addToCart }) {
        <img src={val?.images[0]} alt="" className='card-img '/>
     </div>
        <div className='detalise card-body d-flex flex-column align-items-center'>
-       <b>{val?.title.split(" ").slice(0,2).join(" ")}</b>
+       <b>{val?.title}</b>
        <Stars />
        <p className='m-0 p-0'>{val?.description}</p>
        <b>{val?.price}</b>

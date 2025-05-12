@@ -37,7 +37,7 @@ function Wishlist() {
                  <img src={val?.img || val?.thumbnail}  alt="" />
                </div>
                <div className='flex flex-column gap-2'>
-                 <p className='p-0 m-0'>{val?.title.split(" ").slice(0,2).join(" ")}</p>
+                 <p className='p-0 m-0'>{val?.title}</p>
                  <p className='p-0 m-0'>${val?.price}</p>
                </div>
                   <div className="prosess flex justify-content-around">

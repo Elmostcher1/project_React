@@ -46,7 +46,7 @@ function AppFlexDir(state) {
           selectProduct.amount += 1
           setCart([...cart])
   
-      toast.success(`You now have ${selectProduct.amount} from ${selectProduct.title.split(" ").slice(0,2).json(" ")}`)
+      toast.success(`You now have ${selectProduct.amount} from ${selectProduct.title}`)
         
         }
       });

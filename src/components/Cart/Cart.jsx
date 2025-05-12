@@ -48,7 +48,7 @@ function Cart() {
                   className="rounded"
                 />
               </td>
-              <td>{val.title?.split(" ").slice(0,2).join(" ")}</td>
+              <td>{val.title}</td>
               <td>{val.category}</td>
               <td>
                 <input onChange={(e)=>changeAmount(e , val)} type="number" min={"1"} max={"50"} defaultValue={val.amount} className="form-control w-50 mx-auto"/>
