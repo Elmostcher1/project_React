@@ -10,9 +10,9 @@ function LotieHandel({status}) {
       <div className='vh-100 flex'>
         <div className='flex flex-column w-50'>
         {status === 'main_pages' ? 
-            <Lottie animationData={loder_2} />
-            : status === 'netsed_page' ?
             <Lottie animationData={loder} />
+            : status === 'netsed_page' ?
+            <Lottie animationData={loder_2} />
             : status === 'error' &&
             <Lottie animationData={error} />
         }
