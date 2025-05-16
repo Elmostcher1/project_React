@@ -1,0 +1,1 @@
+import{j as s}from"./index-VOgKw7X1.js";function d({NameCom:e,title:i,titlePro:n}){return s.jsxs("div",{className:"page_heading mt-0 p-0",children:[s.jsx("div",{children:"products"}),s.jsxs("div",{children:[e," / ",s.jsx("span",{children:i}),s.jsx("span",{children:n})," "]})]})}export{d as P};
